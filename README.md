@@ -26,3 +26,10 @@ Run the unit tests with:
 ```bash
 pytest
 ```
+
+## Continuous Integration
+
+The repository provides a GitHub Actions workflow located under
+`.github/workflows/python-app.yml`. This pipeline installs dependencies,
+runs the unit tests and builds distribution artifacts for every push and
+pull request.
